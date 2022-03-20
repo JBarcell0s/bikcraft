@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background: #f7f7f7;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu a {
+  background: white;
+  padding: 15px 30px;
+  color: #000000;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+.descricao-item {
+  background: white;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  align-content: center;
+  justify-items: end;
+  gap: 20px;
+}
+
+.detalhe {
+  width: 60px;
+  height: 4px;
+  background-color: #ee2211;
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
+
+.button {
+  background-color: #ee2211;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.subtitulo {
+  font-size: 64px;
+  text-align: right;
+  padding: 40px;
+  color: #c6c6c6;
+  align-self: center;
+}
+
+.vantagem {
+  padding: 40px;
+  background-color: white;
+}
+
+.vantagensdesc {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.vantagensdesc p {
+  grid-column: 2;
+}
+
+.rodape {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
